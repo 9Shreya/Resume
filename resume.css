@@ -22,7 +22,7 @@ html {
   background-color: rgb(83, 78, 78) !important;
 }
 .main1 {
-  height: 520px;
+  height: 580px;
   background-color: #202020;
   color: aliceblue;
   text-align: center;
@@ -54,7 +54,7 @@ html {
   display: flex;
 }
 .main4 {
-  height: 640px;
+  height: 740px;
   background-color: rgb(46, 45, 45);
   color: aliceblue;
   position: relative;
@@ -71,6 +71,11 @@ html {
 .text {
   padding-top: 120px;
 }
+.btn a {
+  text-decoration: none !important;
+  color: aliceblue;
+}
+
 .butt {
   border: none;
   outline: none;
@@ -101,7 +106,14 @@ a .hibut {
 a:hover {
   color: white !important;
 }
-
+.btn:hover a {
+  background-color: aliceblue;
+  color: #202020 !important;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: aliceblue;
+}
 a:hover .hibut {
   width: 60px;
   height: 2px;
@@ -220,14 +232,14 @@ body {
 }
 
 .card:hover h4 {
-  top: 55px;
+  top: 70px;
   opacity: 1;
   text-transform: uppercase;
   color: white;
   transition: 0.3s linear 0.3s;
 }
 .card:hover p {
-  bottom: -50px;
+  bottom: -40px;
   color: white;
   transition: 0.3s linear 0.3s;
   opacity: 1;
@@ -261,7 +273,7 @@ body {
   color: white;
 }
 .card:hover .fa {
-  transform: scale(2);
+  transform: scale(3);
   opacity: 0;
 }
 .projectheading {
@@ -275,6 +287,18 @@ body {
   display: flex;
   margin-left: 40px;
   margin-top: 80px;
+}
+.dicegame:hover .spdice,
+.calculator:hover .calci {
+  opacity: 0.9;
+  display: block;
+}
+.spdice,
+.calci {
+  margin-top: -40%;
+  margin-left: 45%;
+  z-index: 100;
+  transition: 1s linear;
 }
 .footer {
   height: 70px;
