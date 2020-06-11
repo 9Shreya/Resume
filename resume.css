@@ -286,7 +286,6 @@ body {
 .imgproject {
   display: flex;
   margin-left: 40px;
-  margin-top: 80px;
 }
 .dicegame:hover .spdice,
 .calculator:hover .calci,
@@ -301,6 +300,7 @@ body {
   margin-left: 45%;
   z-index: 100;
   transition: 1s linear;
+  display: none;
 }
 .footer {
   height: 70px;
@@ -309,17 +309,6 @@ body {
   margin-top: 200px;
 }
 
-@media (max-width: 1000px) {
-}
-@media (max-width: 850px) {
-}
-@media (max-width: 730px) {
-}
-@media (max-width: 650px) {
-}
-
-@media (max-width: 580px) {
-  .card {
-    display: none;
-  }
+.hi {
+  margin-top: 5vh;
 }
