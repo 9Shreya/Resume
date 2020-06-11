@@ -54,7 +54,7 @@ html {
   display: flex;
 }
 .main4 {
-  height: 740px;
+  height: 1040px;
   background-color: rgb(46, 45, 45);
   color: aliceblue;
   position: relative;
@@ -308,6 +308,7 @@ body {
   background-color: rgb(83, 78, 78);
   margin-top: 200px;
 }
+
 @media (max-width: 1000px) {
 }
 @media (max-width: 850px) {
