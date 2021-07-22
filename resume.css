@@ -54,7 +54,7 @@ html {
   display: flex;
 }
 .main4 {
-  height: 1040px;
+  height: 1680px;
   background-color: rgb(46, 45, 45);
   color: aliceblue;
   position: relative;
@@ -232,14 +232,14 @@ body {
 }
 
 .card:hover h4 {
-  top: 70px;
+  top: 50px;
   opacity: 1;
   text-transform: uppercase;
   color: white;
   transition: 0.3s linear 0.3s;
 }
 .card:hover p {
-  bottom: -40px;
+  bottom: -60px;
   color: white;
   transition: 0.3s linear 0.3s;
   opacity: 1;
@@ -248,13 +248,13 @@ body {
   bottom: 0px;
 }
 .card h4 {
-  top: 120px;
+  top: 98px;
   position: absolute;
   color: aliceblue;
 }
 
 .card {
-  height: 200px;
+  height: 150px;
   width: 30%;
   margin-left: 2.5%;
   margin-right: 2.5%;
@@ -286,6 +286,7 @@ body {
 .imgproject {
   display: flex;
   margin-left: 40px;
+  position: relative;
 }
 .dicegame:hover .spdice,
 .calculator:hover .calci,
@@ -296,10 +297,9 @@ body {
 .spdice,
 .calci,
 .online {
-  margin-top: -40%;
-  margin-left: 45%;
-  z-index: 100;
-  transition: 1s linear;
+  position: absolute;
+  top: 37%;
+  left: 30%;
   display: none;
 }
 .footer {
