@@ -7,14 +7,14 @@ $("body").scrollspy({ target: "#list-example" });
 $(document).ready(() => {
   $(window).scroll(() => {
     if ($(this).scrollTop() > 850) {
-      $(".progress1").animate({ width: "90%" }, 2000);
-      $(".corejava").animate({ width: "90%" }, 2000);
-      $(".progress2").animate({ width: "10%" }, 2000);
-      $(".j2ee").animate({ width: "10%" }, 2000);
-      $(".progress3").animate({ width: "80%" }, 2000);
-      $(".jdbc").animate({ width: "80%" }, 2000);
-      $(".progress4").animate({ width: "90%" }, 2000);
-      $(".serv").animate({ width: "90%" }, 2000);
+      // $(".progress1").animate({ width: "90%" }, 2000);
+      // $(".corejava").animate({ width: "90%" }, 2000);
+      // $(".progress2").animate({ width: "10%" }, 2000);
+      // $(".j2ee").animate({ width: "10%" }, 2000);
+      // $(".progress3").animate({ width: "80%" }, 2000);
+      // $(".jdbc").animate({ width: "80%" }, 2000);
+      // $(".progress4").animate({ width: "90%" }, 2000);
+      // $(".serv").animate({ width: "90%" }, 2000);
       $(".progress5").animate({ width: "75%" }, 2000);
       $(".hib").animate({ width: "75%" }, 2000);
       $(".progress6").animate({ width: "75%" }, 2000);
